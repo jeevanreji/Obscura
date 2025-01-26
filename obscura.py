@@ -137,7 +137,7 @@ def blur_image(image_path):
             if(len(bounding_boxes) <=10):
                 bounding_boxes.append(f"extracted_bbox_image_{label}.jpg")
 
-    genai.configure(api_key="AIzaSyAfbY7bHL5ai_YstJtrvre2pVOfyyXmkdc")
+
     
     scores_vector = []
     blurFlag = False
