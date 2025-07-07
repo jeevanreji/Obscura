@@ -78,6 +78,8 @@ Used for the demo due to its widespread adoption among enterprises, especially F
   1. How images are processed for sensitive content.
   2. How the updated image is shared securely with the intended recipient.
 
+[![Watch the demo](https://img.youtube.com/vi/7z25r0M_xiI/hqdefault.jpg)](https://www.youtube.com/watch?v=7z25r0M_xiI)
+
 ---
 
 ## **Running the application**
