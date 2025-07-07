@@ -80,10 +80,31 @@ Used for the demo due to its widespread adoption among enterprises, especially F
 
 ---
 
+## **Running the application**
+### **Requirements**
+Ensure the following are installed on your system:
+
+- [Docker](https://docs.docker.com/get-docker/) (v20+ recommended)
+### **Building and running the application**
+In the project root, run:
+
+```bash
+docker build -t obscura .
+```
+Then run the container as:
+```bash
+docker run -d -p 8080:8080 --name obscura obscura
+```
+Once the container is up and running, test the API via Swagger UI through:
+```bash
+http://localhost:8080/docs
+```
+---
+
 ## **Contributors**
 | Name                   | Role                                    |
 |------------------------|-----------------------------------------|
-| **Jeevan Reji**        | Lead Developer                         |
+| **Jeevan Reji**        | Lead Developer                          |
 
 
 ---
